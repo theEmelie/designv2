@@ -1,0 +1,51 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: pink;
+@bgColorBody: #fff;
+@fontFamilyBody: calibri, serif;
+
+html {
+  background-color: @bgColorHtml;
+  overflow-y: scroll;
+}
+
+main {
+  min-height: 20em;
+  overflow: auto;
+  padding: 1em;
+}
+
+body {
+  margin: 8px auto;
+  padding: 8px;
+  background-color: @bgColorBody;
+  border-radius: 10px;
+  font-family: @fontFamilyBody;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+figure.figure.right {
+  float: right;
+}
+
+figure.figure.left {
+  float: left;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: small;
+}
+
+img {
+    max-width: 100%;
+}

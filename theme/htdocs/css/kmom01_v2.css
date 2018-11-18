@@ -1,0 +1,245 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+  * Internal self contained modules, save in directory module/.
+  */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  background-color: pink;
+  overflow-y: scroll;
+}
+main {
+  min-height: 20em;
+  overflow: auto;
+  padding: 1em;
+}
+body {
+  margin: 8px auto;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: calibri, serif;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+figure.figure.right {
+  float: right;
+}
+figure.figure.left {
+  float: left;
+}
+figcaption {
+  font-style: italic;
+  font-size: small;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.rm-desktop ul {
+  display: none;
+}
+.rm-navbar-max {
+  display: none;
+}
+.wrap-all {
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  overflow: auto;
+}
+.site-logo {
+  display: none;
+}
+.region-header-col-1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.region-header-col-1 a {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: hotpink;
+}
+.region-flash img {
+  max-width: 700px;
+}
+.footer-column {
+  width: 33%;
+  float: left;
+}
+.region-footer {
+  margin-top: 50px;
+  text-align: center;
+  border-top: 1px grey solid;
+}
+.region-footer a {
+  text-decoration: none;
+  color: hotpink;
+}
+.my-navbar {
+  text-align: center;
+  padding: 1em;
+  background-color: pink;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: sans-serif;
+}
+.my-navbar a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #000;
+}
+.my-navbar a:link {
+  color: black;
+}
+.my-navbar a:hover {
+  background-color: #fff;
+  text-decoration: underline;
+}
+.my-navbar a:active {
+  color: #fff;
+}
+.my-navbar .selected {
+  background-color: #fff;
+  font-weight: bold;
+}
+.my-navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+.author-byline {
+  margin-top: 5em;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  background-color: white;
+  height: 175px;
+}
+.author-byline a {
+  text-decoration: underline;
+  color: hotpink;
+}
+.region-sidebar-left {
+  float: left;
+  border-right: 1px black solid;
+  padding-right: 20px;
+}
+.wrap-sidebar a {
+  color: hotpink;
+}
+.region-breadcrumb a {
+  color: hotpink;
+}
+.next-previous a {
+  color: hotpink;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar
+ */
+@media screen and (max-width: 960px) {
+  .rm-desktop a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 15%;
+  }
+  .region-header-col-2 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

@@ -1,0 +1,175 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+ /**
+  * Header and Navbar
+  */
+ .outer-wrap-header {
+     background-color: pink;
+     .clearfix();
+ }
+
+ .inner-wrap {
+     max-width: 850px;
+     margin: 0 auto;
+     background-color: white;
+ }
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header-col-1,
+.region-header-col-3{
+    float: left;
+    width: 20%;
+}
+
+.region-header-col-2{
+    float: left;
+    width: 60%;
+}
+
+.wrap-all {
+  margin: 0 auto;
+  background-color: white;
+  overflow: auto;
+}
+.site-logo {
+  display: none;
+}
+.region-header-col-1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.region-header-col-1 a {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: hotpink;
+}
+
+.my-navbar {
+  text-align: center;
+  padding: 1em;
+  background-color: pink;
+  font-family: sans-serif;
+}
+.my-navbar a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #000;
+}
+.my-navbar a:link {
+  color: black;
+}
+.my-navbar a:hover {
+  background-color: #fff;
+  text-decoration: underline;
+}
+.my-navbar a:active {
+  color: #fff;
+}
+.my-navbar .selected {
+  background-color: #fff;
+  font-weight: bold;
+}
+.my-navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/**
+ * Footer and Byline
+ */
+.footer-column {
+  width: 33%;
+  float: left;
+}
+.region-footer {
+  margin-top: 50px;
+  text-align: center;
+}
+.region-footer a {
+  text-decoration: none;
+  color: hotpink;
+}
+.outer-wrap-footer,
+.inner-wrap-footer {
+    color: black;
+    background-color: pink;
+}
+.author-byline {
+  margin-top: 5em;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+  background-color: white;
+  height: 175px;
+}
+.author-byline a {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+/**
+ * Sidebars
+ */
+.wrap-sidebar a {
+  color: hotpink;
+}
+.region-breadcrumb a {
+  color: hotpink;
+}
+.next-previous a {
+  color: hotpink;
+}
+
+.inner-wrap-main {
+    .clearfix();
+}
+
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+    overflow: auto;
+}
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    .clearfix();
+
+    &.has-sidebar {
+        margin-left: auto;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+.region-sidebar-left  {
+    padding-right: 20px;
+    float: left;
+}
+
+.region-siebar-right, {
+    width: 30%;
+    float: left;
+}
+
+.region-siebar-right.has-sidebar-right,
+.region-sidebar-left.has-sidebar-left  {
+    width: 20%;
+}
