@@ -1,6 +1,10 @@
 Revision history
 ===================
 
+v. 3.0.1 (2018-11-23)
+---------------------
+* Done with kmom03, adding some more style
+
 v. 3.0.0 (2018-11-23)
 ---------------------
 * Done with kmom03
