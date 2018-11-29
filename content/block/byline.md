@@ -8,5 +8,7 @@
 </figcaption>
 </figure>
 
-<p><a href=https://www.linkedin.com/in/emelie-%C3%A5slund-344710166/ rel=author><strong>Emelie Åslund</strong></a> studerar webbprogrammering på distans vid Blekinge Tekniska Högskola. Bor ute på landet i Ekerö, Stockholm. Gillar att spendera mycket tid vid datorn, programmera och spela spel.</p>
+<p><a href=https://www.linkedin.com/in/emelie-%C3%A5slund-344710166/ rel=author><strong>Emelie Åslund</strong></a> studerar webbprogrammering på distans vid Blekinge Tekniska Högskola.
+</p><p>Bor ute på landet i Ekerö, Stockholm.
+Gillar att spendera mycket tid vid datorn, programmera och spela spel.</p>
 </div>

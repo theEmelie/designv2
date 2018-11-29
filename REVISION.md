@@ -1,6 +1,10 @@
 Revision history
 ===================
 
+v. 4.0.0 (2018-11-29)
+---------------------
+* Adding three new themes
+
 v. 3.0.1 (2018-11-23)
 ---------------------
 * Done with kmom03, adding some more style

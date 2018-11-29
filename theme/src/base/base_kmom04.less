@@ -1,0 +1,44 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+main {
+    min-height: 20em;
+}
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+li {
+  list-style-type: none;
+}
+
+ul {
+    padding: 0;
+  list-style: none;
+}
+
+figure.figure.right {
+  float: right;
+}
+
+figure.figure.left {
+  float: left;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: small;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    #desinax-vgrid.grid(@columns);
+}
