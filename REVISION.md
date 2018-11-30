@@ -1,6 +1,10 @@
 Revision history
 ===================
 
+v. 4.0.1 (2018-11-29)
+---------------------
+* Finished with the report about colors
+
 v. 4.0.0 (2018-11-29)
 ---------------------
 * Adding three new themes

@@ -5342,6 +5342,12 @@ h4 {
 .next-previous a {
   color: #D1DBBD;
 }
+.next {
+  color: #D1DBBD;
+}
+.previous {
+  color: #D1DBBD;
+}
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
