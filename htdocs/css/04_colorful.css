@@ -5279,7 +5279,8 @@ h4 {
 /**
   * Header
   */
-.region-header {
+.region-header-col-1 a,
+.region-header-col-3 a {
   color: #333745;
 }
 /**
@@ -5305,7 +5306,7 @@ h4 {
   background-color: #fff;
 }
 .rm-default li li {
-  background-color: #444;
+  background-color: #77C4D3;
   color: #333745;
 }
 /**
