@@ -1,6 +1,10 @@
 Revision history
 ===================
-v4.0.3 (2018-12-01)
+v5.0.0 (2018-12-07)
+---------------------
+* Finished with my picture blog
+
+v4.0.2 (2018-12-01)
 ---------------------
 * Finished with kmom04
 

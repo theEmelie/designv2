@@ -1,7 +1,7 @@
 /**
 * Layout using vgrid
  */
-
+@maxContentWidth: 800px;
 
 /**
  * General layout
@@ -175,5 +175,29 @@
      .region-sidebar-right {
          #desinax-vgrid.push(0);
          #desinax-vgrid.column(@columns);
+     }
+ }
+
+ .meta-footer {
+     clear: both;
+ }
+
+ .meta-header {
+     color: @textColor;
+ }
+
+ &.left,
+ &.right {
+     @media screen {
+         @media (max-width: round(@maxContentWidth * 2 / 3)) {
+             &.w25 {
+                 margin-left: 0;
+                 margin-right: 0;
+                 float: none;
+                 img {
+                     width: @maxContentWidth * 2 / 3;
+                 }
+             }
+         }
      }
  }

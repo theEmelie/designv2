@@ -6,7 +6,7 @@
 /*!
  * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use grids
+ * This stylesheet is for the design course and kmom04 where we make different themes
  */
 /**
  Import mixins.
@@ -4356,12 +4356,12 @@ template {
 }
 a.rm-button {
   display: inline-block;
-  color: grey;
+  color: inherit;
   background-color: transparent;
   outline: none;
 }
 a.rm-button:active {
-  color: grey;
+  color: inherit;
   background-color: transparent;
 }
 a.rm-button .rm-button-face-1 {
@@ -4490,10 +4490,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
 }
 .rm-max .rm-small .rm-button {
-  color: hotpink;
+  color: inherit;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: hotpink;
+  color: #9FB129;
   position: fixed;
   top: 16px;
   right: 24px;
@@ -4510,7 +4510,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   height: 500px;
   overflow-y: auto;
   padding-top: 72px;
-  background-color: #444;
+  background-color: #131313;
   /* Color when menu item is clicked */
   /* Button for submenu */
   /* Style for submenu */
@@ -4927,6 +4927,24 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     margin-right: 0.52083333%;
   }
 }
+.meta-footer {
+  clear: both;
+}
+.meta-header {
+  color: #91AA9D;
+}
+@media screen and (max-width: 533px) {
+  .left.w25,
+  .right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  .left.w25 img,
+  .right.w25 img {
+    width: 533.33333333px;
+  }
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -5245,6 +5263,9 @@ figure {
   margin-left: auto;
   max-width: 24;
 }
+p a {
+  color: #D1DBBD;
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -5262,6 +5283,18 @@ h1,
 h2,
 h3,
 h4 {
+  color: #91AA9D;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  color: #91AA9D;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover {
   color: #91AA9D;
 }
 /**

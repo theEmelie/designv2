@@ -1,0 +1,113 @@
+/*!
+ * Stylesheet for design kmom05.
+ *
+ * This stylesheet is for the design course and kmom04 where we make different themes
+ */
+
+
+@import "@desinax/figure/less/figure.less";
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+ /**
+ Import mixins.
+*/
+@import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+ /**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+//@import "layout/vgrid.less";
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ @import "layout/layout_kmom04.less";
+ @import "base/base_kmom04.less";
+
+ @import "base/base_minimalistic04.less";
+ @import "layout/layout_minimalistic04.less";
+
+ @import url('https://fonts.googleapis.com/css?family=Quicksand:300|Source+Serif+Pro');
+ @fontFamilyBody: 'Source Serif Pro', serif;
+ @fontFamilyHeadings: 'Quicksand', sans-serif;
+
+ @backgroundColor: #3E606F;
+ @textColor: #91AA9D;
+ @linkColor: #D1DBBD;
+ @bylineColor: #3E606F;
+ @footerColor: #193441;
+ // Magic number and base fontsize
+ @magicNumber:  22px;
+ @fontSizeBody: 16px;
