@@ -1,5 +1,9 @@
 Revision history
 ===================
+v5.0.1 (2018-12-08)
+---------------------
+* Finished with response times on 3 websites
+
 v5.0.0 (2018-12-07)
 ---------------------
 * Finished with my picture blog

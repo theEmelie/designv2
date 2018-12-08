@@ -4931,7 +4931,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   clear: both;
 }
 .meta-header {
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 @media screen and (max-width: 533px) {
   .left.w25,
@@ -5277,25 +5277,25 @@ body {
   background-color: #3E606F;
 }
 p {
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 h1,
 h2,
 h3,
 h4 {
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 h1 a,
 h2 a,
 h3 a,
 h4 a {
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 h1 a:hover,
 h2 a:hover,
 h3 a:hover,
 h4 a:hover {
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 /**
 * Layout using vgrid
@@ -5314,13 +5314,13 @@ h4 a:hover {
   */
 .region-header-col-1 a,
 .region-header-col-3 a {
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 /**
   * Navbar
   */
 .my-navbar {
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 .my-navbar a {
   color: #D1DBBD;
@@ -5340,7 +5340,7 @@ h4 a:hover {
 }
 .rm-default li li {
   background-color: #3E606F;
-  color: #91AA9D;
+  color: #D4D4D4;
 }
 /**
  * Footer
@@ -5350,7 +5350,7 @@ h4 a:hover {
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  color: #91AA9D;
+  color: #D4D4D4;
   background-color: #193441;
 }
 /**
