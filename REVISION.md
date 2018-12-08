@@ -1,5 +1,9 @@
 Revision history
 ===================
+v5.0.2 (2018-12-08)
+---------------------
+* Added different text color
+
 v5.0.1 (2018-12-08)
 ---------------------
 * Finished with response times on 3 websites

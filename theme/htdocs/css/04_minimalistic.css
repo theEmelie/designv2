@@ -5264,7 +5264,7 @@ figure {
   max-width: 24;
 }
 p a {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 /**
  * Base style to affect HTML elements on a general scale.
@@ -5323,10 +5323,10 @@ h4 a:hover {
   color: #D4D4D4;
 }
 .my-navbar a {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 .my-navbar a:link {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 .my-navbar a:hover {
   background-color: #fff;
@@ -5346,7 +5346,7 @@ h4 a:hover {
  * Footer
  */
 .region-footer a {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
@@ -5361,25 +5361,25 @@ h4 a:hover {
   background-color: #3E606F;
 }
 .author-byline a {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 /**
  * Sidebars
  */
 .wrap-sidebar a {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 .region-breadcrumb a {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 .next-previous a {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 .next {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 .previous {
-  color: #D1DBBD;
+  color: #91AA9D;
 }
 @font-face {
   font-family: 'Quicksand';
