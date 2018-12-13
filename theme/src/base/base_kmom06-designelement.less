@@ -1,0 +1,133 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: pink;
+@bgColorBody: #fff;
+@fontFamilyBody: calibri, serif;
+
+
+html {
+  background-color: @backgroundColor;
+  overflow-y: scroll;
+}
+
+// main {
+//   min-height: 20em;
+// }
+
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+  background-color: @bgColorBody;
+  // font-family: @fontFamilyBody;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+li {
+  list-style-type: none;
+}
+
+ul {
+    padding: 0;
+  list-style: none;
+}
+
+figure.figure.right {
+  float: right;
+  padding: 10px;
+}
+
+figure.figure.left {
+  float: left;
+  padding: 10px;
+}
+
+figure img {
+    border: 1px double white;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: small;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    #desinax-vgrid.grid(@columns);
+}
+
+p {
+    color: @textColor;
+}
+
+h1, h2, h3, h4 {
+    color: @textColor;
+    a {
+        color: @textColor;
+        &:hover {
+            color: @textColor;
+        }
+    }
+}
+
+::selection {
+  background: @footerColor; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: @footerColor; /* Gecko Browsers */
+}
+
+/* Circle */
+figure {
+	position: relative;
+}
+figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+figure:hover::before {
+	-webkit-animation: circle .75s;
+	animation: circle .75s;
+}
+@-webkit-keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}

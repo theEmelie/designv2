@@ -1,5 +1,9 @@
 Revision history
 ===================
+v6.0.0 (2018-12-13)
+---------------------
+* Done different design elements
+
 v5.0.2 (2018-12-08)
 ---------------------
 * Added different text color
