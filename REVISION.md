@@ -1,5 +1,9 @@
 Revision history
 ===================
+v6.0.1 (2018-12-13)
+---------------------
+* Done different design principles
+
 v6.0.0 (2018-12-13)
 ---------------------
 * Done different design elements
