@@ -1,5 +1,9 @@
 Revision history
 ===================
+v6.0.2 (2018-12-16)
+---------------------
+* Done analysing 3 websites about design
+
 v6.0.1 (2018-12-13)
 ---------------------
 * Done different design principles
