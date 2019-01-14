@@ -1,5 +1,9 @@
 Revision history
 ===================
+v10.0.0 (2019-01-14)
+---------------------
+* Done with the design course
+
 v6.0.2 (2018-12-16)
 ---------------------
 * Done analysing 3 websites about design
